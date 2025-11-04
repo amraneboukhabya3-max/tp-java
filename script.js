@@ -26,4 +26,20 @@ const moi = {
        moi.age = 19;
        moi.ville = "Paris";
        console.log(moi);
-       
+       const notes = [12, 15, 9, 18];
+       console.log(notes[0]); // Affiche 12 console.log(notes[1]); // Affiche 15
+       console.log(notes.length); // Affiche 4
+       for (let i = 0; i < notes.length; i++) {
+    console.log("La note à l'indice " + i + " est " + notes[i]);
+}
+const classe = [
+    { prenom: 'Alice', age: 18 },
+    { prenom: 'Bob', age: 17 }
+];
+;console.log(classe)
+for(let i =0; 1< notes length; i++ )
+    if(classe [i].age >=18){
+     console.log(classe{i}.prenom)   
+    }
+
+
